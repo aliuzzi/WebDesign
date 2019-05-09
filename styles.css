@@ -1,0 +1,8 @@
+p {
+  font-family: sans-serif;
+  padding: 20px;
+  /* background properties */
+  background-color: pink;
+  background-image: linear-gradient(to bottom, pink, #FFC0CB 50%, purple);
+  //background-size: 10px 10px;
+}
