@@ -1,8 +1,67 @@
-p {
-  font-family: sans-serif;
-  padding: 20px;
-  /* background properties */
-  background-color: pink;
-  background-image: linear-gradient(to bottom, pink, #FFC0CB 50%, purple);
-  //background-size: 10px 10px;
+html {
+font-size: 10px;
+font-family: "Open Sans", sans-serif; /*  the output from Google fonts */
+background-color: #FFC0CB;
+}
+h1 {
+font-size: 60px;
+text-align: center;
+}
+
+h1{
+font-size: 60px;
+line-height:2;
+
+}
+
+p, li {
+font-size: 16px;
+line-height: 2;
+letter-spacing: 1px;
+}
+
+nav {
+background-image: linear-gradient(to top left, 	#FFC0CB
+, #add8e6);
+box-shadow: 17px 17px 70px -1px rgba(0,0,0,.7);
+padding-right: 40px;
+padding-bottom: 10px;
+/*   border-radius: 0px 0px 50% 50%; */
+border-style:solid;
+width: 250px;
+display: flex;
+justify-content: flex-end;
+position: fixed;
+top: 10px;
+right: 10px;
+z-index: 1000;
+}
+.mainimg {
+height: 100vh;
+object-fit: cover;
+overflow: hidden;
+}
+
+#header {
+position: relative;
+border-bottom: solid;
+box-shadow: 17px 17px 70px -1px rgba(0,0,0,.7);
+}
+
+.headerText {
+position: absolute;
+top: 35vh;
+left: 5vh;
+animation:moveIn ease-in 1;
+animation-fill-mode:forwards;
+animation-duration: .5s;
+}
+
+.headerText p {
+font-size: 3rem;
+line-height: 150%;
+text-align: left;
+background-color: rgb(255, 255, 255, .75);
+padding: 10px;
+display: inline;
 }
