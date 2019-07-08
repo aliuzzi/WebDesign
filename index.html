@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang = "en">
-  <title>Angelica Liuzzi</title>
   <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Angelica Liuzzi's Website</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Libre+Franklin" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  </head>
 
-        <style type="text/css">
 
-        
+
 <div class = "center"> </div>
 
 <h1>Angelica Liuzzi</h1>
+    <p class= "center; paragraph mt-4">
+      "You've got to know the sky belongs to no one"
+    </p>
 
-<h2> angelica.liuzzi99@gmail.com</h2>
-<h3> 949-973-0045 </h3>
-<p class="head">  Professional Summary </p>
+
+<h2 class="section"> Professional Summary </h2>
 
 <li>A creative, passionate about building new things to promote a better, more unified society. Aspiring web and mobile developer.</li>
 
-<p class= "head"> Education</p>
+<h3 class="section">Education</h3>
     <ul>
 <li> University of San Francisco, San Francisco, CA
 
@@ -25,20 +31,20 @@
 <li> Graduating: May 2021
     </ul>
 
-<p class = "head">  Achievements </p>
+<h4 class ="section"> Achievements </h4>
     <ul>
   <li> 2018 Environmental Sustainability Hackathon </li>
 <li> Environmental Committee Commissioner (USF Rock Climbing Club)
     </ul>
-  <p class ="head"> Skills  </p>
+    <h5 class = "section"> Technical Skills</h5>
+  <p class ="font-bold"> Languages  </p>
   <ul>
     <li> Python
     <li> Java
       <li> HTML
         <li> CSS
-		<li> JavaScript 
-			<li> Object Oriented Programming
     </ul>
+
 <nav id="nav">
             <div class="innertube">
               <img src= "images/IMG_3149.jpg"
@@ -49,9 +55,27 @@
 
 
             <ul>
-                <li><a href="https://www.linkedin.com/in/angelica-liuzzi-305339133/">LinkedIn</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100005579565300">Facebook</a></li>
-              <li><a href = "https://github.com/aliuzzi">Github</a></li>
+              <div class="flex mt-2">
+                <i class="fas fa-envelope text-black mr-1" data-fa-transform="shrink-2"></i>
+                <a class="icon-text" href="mailto:angelica.liuzzi99@gmail.com">Email me here!</a>
+              </div>
+              <div class="flex mt-2">
+                <i class="fas fa-phone text-black mr-1" data-fa-transform="shrink-3"></i>
+                <span class="icon-text">949-973-0045</span>
+              </div>
+              <div class="flex mt-2">
+                <i class="fas fa-envelope text-black mr-1" data-fa-transform="shrink-2"></i>
+                <a class="icon-text" href="https://www.facebook.com/profile.php?id=100005579565300">facebook</a>
+              </div>
+              <div class="flex mt-2">
+                <i class="fas fa-envelope text-black mr-1" data-fa-transform="shrink-2"></i>
+                <a class="icon-text" href="https://www.linkedin.com/in/angelica-liuzzi-305339133/">LinkedIn</a>
+              </div>
+
+                <div class="flex mt-2">
+                  <i class="fab fa-github-alt text-black mr-1" data-fa-transform="shrink-1"></i>
+                  <a class="icon-text" href="https://github.com/aliuzzi">github.com/aliuzzi</a>
+                </div>
 
             </ul>
                   <section id="contact">
@@ -69,4 +93,29 @@
         </nav>
 
 </body>
+<script src="main.js"></script>
+<!-- <script>
+
+
+
+  $(".body").delay(1000).animate({"opacity": "1"}, 700);
+
+    var options = {
+      strings: [ "Welcome to Angelica's Website"],
+      typeSpeed: 40
+
+    }
+
+    var typed = new Typed(".name", options);
+
+    $(document).ready(function(){
+
+      /*! Fades in page on load */
+      $('body').css('display', 'none');
+      $('body').fadeIn(500);
+
+    });
+
+
+  </script> -->
 </html>
